@@ -1,0 +1,29 @@
+{
+  "name": "library-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@zxing/library": "github:zxing-js/library",
+    "better-sqlite3": "^13.0.3",
+    "next": "^14.2.0",
+    "next-intl": "^4.14.9",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.0",
+    "typescript": "^5"
+  }
+}
